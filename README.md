@@ -87,12 +87,11 @@ automatically by torchvision on first use.
 Run `bash scripts/run_all.sh`; it writes `results/summary.md`, `results/summary.csv`,
 `results/pairwise.csv` and `results/accuracy_comparison.png`. Paste the final table here:
 
-| Method | 5-way 1-shot | 5-way 5-shot | 10-way 1-shot | 10-way 5-shot |
-|---|---|---|---|---|
-| Siamese | _TBD_ | _TBD_ | _TBD_ | _TBD_ |
-| ProtoNet | _TBD_ | _TBD_ | _TBD_ | _TBD_ |
-| Matching Net | _TBD_ | _TBD_ | _TBD_ | _TBD_ |
-| Relation Net | _TBD_ | _TBD_ | _TBD_ | _TBD_ |
+Method	5-way 1-shot	5-way 5-shot	Gain	Time reported
+Siamese Network	72.19	81.91	+9.72	64 s
+Prototypical Network	87.96	95.25	+7.29	62 s
+Matching Network	89.29	95.93	+6.64	76 s
+Relation Network	84.79	90.88	+6.09	75 s
 
 <sub>Accuracy (%), mean ± std over 3 training seeds.</sub>
 
